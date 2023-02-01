@@ -3,7 +3,6 @@ const serverRooturl = 'http://localhost:5000/user/';
 document.getElementById('post-contact').addEventListener('submit', (ev) => {
   const newContact = {
     name: document.getElementById('name').value,
-    // relation: document.getElementById('relation').value,
     place: document.getElementById('place').value,
     invtDate: document.getElementById('invt-date').value,
   };
