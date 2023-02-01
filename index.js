@@ -25,5 +25,9 @@ const postContactetails = async (data) => {
     console.log('CONT RES', resData);
   } catch (err) {
     console.log('Error while Adding new Contacts', err);
+<<<<<<< HEAD
+=======
+    document.getElementById('welMessage').innerText = '';
+>>>>>>> 28d59a9 (client done)
   }
 };
