@@ -1,4 +1,3 @@
-// const serverRooturl = 'http://localhost:5000/user/';
 const serverRooturl = 'https://weddinginvitation.onrender.com/user/';
 
 document.getElementById('post-contact').addEventListener('submit', (ev) => {

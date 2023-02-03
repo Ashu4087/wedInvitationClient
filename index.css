@@ -34,11 +34,9 @@
 h4 {
   text-align: center;
 }
-/* .place-field {
-  display: block;
-} */
+
 #note {
-  margin-left: 40px;
+  margin-left: 35px;
 }
 #welMessage {
   margin: 10px;
