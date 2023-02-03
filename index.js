@@ -12,7 +12,6 @@ document.getElementById('post-contact').addEventListener('submit', (ev) => {
 });
 
 const postContactetails = async (data) => {
-  console.log(`calling ${serverRooturl + 'add'}`);
   try {
     const res = await fetch(serverRooturl + 'add', {
       method: 'POST',
