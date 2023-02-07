@@ -1,4 +1,5 @@
 const serverRooturl = 'https://weddinginvitation.onrender.com/user/';
+// const serverRooturl = 'http://localhost:3000/user/';
 
 document.getElementById('post-contact').addEventListener('submit', (ev) => {
   const newContact = {
@@ -11,6 +12,7 @@ document.getElementById('post-contact').addEventListener('submit', (ev) => {
 });
 
 const postContactetails = async (data) => {
+  document.getElementById('send-submit').disabled = true;
   try {
     const res = await fetch(serverRooturl + 'add', {
       method: 'POST',
@@ -26,4 +28,5 @@ const postContactetails = async (data) => {
     console.log('Error while Adding new Contacts', err);
     document.getElementById('welMessage').innerText = '';
   }
+  document.getElementById('send-submit').disabled = false;
 };

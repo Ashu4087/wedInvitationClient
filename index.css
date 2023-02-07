@@ -30,6 +30,12 @@
   margin-left: 110px;
   height: 30px;
   width: 90px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+#send-submit:hover {
+  background-color: rgb(194, 197, 200);
 }
 h4 {
   text-align: center;
